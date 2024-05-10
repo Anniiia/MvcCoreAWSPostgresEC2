@@ -6,7 +6,7 @@ namespace MvcCoreAWSPostgresEC2.Repositories
 {
     public class RepositoryDepartamentos
     {
-        private DepartamentosContext context,
+        private DepartamentosContext context;
 
         public RepositoryDepartamentos(DepartamentosContext context)
         {
